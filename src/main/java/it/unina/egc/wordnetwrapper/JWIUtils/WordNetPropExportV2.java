@@ -1,24 +1,15 @@
 package it.unina.egc.wordnetwrapper.JWIUtils;
 
-import it.unina.egc.wordnetwrapper.core.WordNetWrapper;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import javax.swing.tree.DefaultMutableTreeNode;
-
-import edu.mit.jwi.item.IIndexWord;
 import edu.mit.jwi.item.IPointer;
-import edu.mit.jwi.item.ISenseEntry;
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.ISynsetID;
-import edu.mit.jwi.item.IWord;
-import edu.mit.jwi.item.IWordID;
 import edu.mit.jwi.item.POS;
-import edu.mit.jwi.item.Pointer;
 
 public class WordNetPropExportV2 
 {

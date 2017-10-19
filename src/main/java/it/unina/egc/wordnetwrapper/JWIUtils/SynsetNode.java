@@ -3,8 +3,6 @@ package it.unina.egc.wordnetwrapper.JWIUtils;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.print.attribute.IntegerSyntax;
-
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.IWord;
 

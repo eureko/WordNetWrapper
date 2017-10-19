@@ -28,9 +28,9 @@ public class GeneralWordNetExport
 			jwiwrapper = new JWIWrapper();
 			
 			// Exporting synset nodes
-			FileWriter fileWriterConcept = new FileWriter("WordNet_Concept_V1.csv");
+			FileWriter fileWriterConcept = new FileWriter("WordNet_Concept_V1_small.csv");
 			POS[] pos_values = POS.values();
-			fileWriterConcept.write ("id,SID,POS,words,gloss\n");
+			fileWriterConcept.write ("id,POS,gloss\n");
 			int id = 0;
 				
 			for (POS pos:pos_values)
@@ -243,10 +243,10 @@ public class GeneralWordNetExport
 	static String getLine(ISynset synset, int id)
 	{
 		String str = "" +  id + ",";
-		str += synset.getID().toString() + ",";
+		//str += synset.getID().toString() + ",";
 		str += synset.getPOS().name() + ",";
 		
-		List<IWord> words = synset.getWords();
+		/*List<IWord> words = synset.getWords();
 		str += "{";
 		for( Iterator <IWord > w = words . iterator (); w. hasNext () ;){
 			str += w. next ().getLemma ();
@@ -254,7 +254,7 @@ public class GeneralWordNetExport
 				str += "; ";
 		}
 		str += "}";
-		str += ",";
+		str += ",";*/
 		
 		str += "\"" + synset.getGloss().replaceAll("\"", "\"\"") + "\"";
 		

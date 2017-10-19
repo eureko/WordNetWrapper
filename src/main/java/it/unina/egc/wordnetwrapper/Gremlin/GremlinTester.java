@@ -3,16 +3,10 @@ package it.unina.egc.wordnetwrapper.Gremlin;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 
-import org.neo4j.kernel.Traversal;
-
 import com.tinkerpop.gremlin.neo4j.structure.Neo4jGraph;
 import com.tinkerpop.gremlin.structure.Graph;
-import com.tinkerpop.gremlin.structure.Graph.Features;
-import com.tinkerpop.gremlin.structure.Graph.Features.VertexFeatures;
-import com.tinkerpop.gremlin.structure.io.graphml.GraphMLReader;
 import com.tinkerpop.gremlin.structure.io.graphml.GraphMLWriter;
 import com.tinkerpop.gremlin.tinkergraph.structure.TinkerFactory;
-import com.tinkerpop.gremlin.tinkergraph.structure.TinkerGraph;
 
 public class GremlinTester 
 {

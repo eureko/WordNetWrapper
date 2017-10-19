@@ -1,6 +1,5 @@
 package it.unina.egc.wordnetwrapper.gui;
 
-import it.unina.egc.wordnetwrapper.JWIUtils.JWIWrapper;
 import it.unina.egc.wordnetwrapper.JWIUtils.SynsetNode;
 import it.unina.egc.wordnetwrapper.core.WordNetWrapper;
 
@@ -8,10 +7,8 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.util.Iterator;
 import java.util.List;
 
-import javax.swing.JEditorPane;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;

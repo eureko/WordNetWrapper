@@ -1,13 +1,9 @@
 package it.unina.egc.wordnetwrapper.JWIUtils;
 
-import it.unina.egc.wordnetwrapper.core.WordNetWrapper;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
-
-import javax.swing.tree.DefaultMutableTreeNode;
 
 import edu.mit.jwi.item.IIndexWord;
 import edu.mit.jwi.item.ISynset;
